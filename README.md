@@ -1,26 +1,27 @@
-#Map Viewer
+# Map Viewer
 
-#Map Viewer is a simple PyQt-based application that allows users to upload an Excel file containing latitude and longitude coordinates and visualize them on an interactive map using the Folium library.
-Features
+Map Viewer is a simple PyQt-based application that allows users to upload an Excel file containing latitude and longitude coordinates and visualize them on an interactive map using the Folium library.
+
+# Features
 
     Upload Excel file: Users can select an Excel file containing latitude and longitude coordinates.
     Create Map: Generates an interactive map using the uploaded Excel file data and displays it in a web browser.
     Marker Clustering: The map markers are clustered together for improved visualization when multiple markers are present.
     GitHub Repository: This code is available on GitHub at https://github.com/amirbaqerzadeh.
 
-#Installation
+# Installation
 
-    Clone the GitHub repository:
+Clone the GitHub repository:
 
 git clone https://github.com/amirbaqerzadeh/map-viewer.git
 
-    Install the required dependencies:
+Install the required dependencies:
 
 pip install PyQt6 pandas folium
 
-#Usage
+# Usage
 
-    Run the application:
+Run the application:
 
 python main.py
 
@@ -31,7 +32,7 @@ python main.py
     Close the application window or the web browser to exit.
 
 
-Author
+# Author
 
     Amir Baqerzadeh
 
